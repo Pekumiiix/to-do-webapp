@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+body h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #00008b;
+}
+
+body .input {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.input input {
+    height: 70px;
+    width: 450px;
+    border-radius: 9px;
+    border: 2px solid blue;
+    padding: 5px;
+    outline: none;
+}
+
+.input button {
+    width: 70px;
+    margin-left: 10px;
+    border-radius: 9px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.main {
+    display: block;
+    width: 100%;
+    height: auto;
+    /*background-color: black;*/
+    margin-top: 70px;
+}
+
+.main .task {
+    width: 650px;
+    height: 70px;
+    border-radius: 9px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 27%;
+    margin-bottom: 15px;
+}
+
+.task .task-left {
+    display: flex;
+    margin: 15px;
+}
+
+.task-left p {
+    margin-left: 10px;
+    font-size: large;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.task .task-right {
+    display: flex;
+}
+
+.task-right p {
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+@media screen and (max-width: 1023px) {
+    body {
+        width: 100%;
+    }
+
+    #new-task-form {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    #new-task-form input {
+        height: 80px;
+        width: 83%;
+        font-size: large;
+    }
+
+    #tasks .task {
+        width: 90%;
+        margin-left: 5%;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+    #new-task-form {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #new-task-form input {
+        height: 60px;
+        width: 80%;
+    }
+
+    #tasks .task {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*body {
+        width: 100%;
+    }
+
+    #new-task-form {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #new-task-form input {
+        height: 60px;
+        width: 80%;
+    }
+
+    #tasks .task {
+        width: 90%;
+        margin-left: 5%;
+    }*/
+
+    .task p {
+        font-size: 15px;
+    }
+
+    .task-right p {
+        margin-right: 5px;
+        font-size: small;
+    }
+}
