@@ -39,9 +39,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
-## Demo
 
-https://statuesque-parfait-b02411.netlify.app/
 
 
 ## Contributing
