@@ -41,7 +41,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Demo
 
-https://spectacular-scone-5eb493.netlify.app/
+https://statuesque-parfait-b02411.netlify.app/
 
 
 ## Contributing
