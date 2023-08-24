@@ -61,7 +61,7 @@ Yes, It work's on all devices.
 
 Yes, you can, and you can also delete tasks.
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://stellar-dango-dc6167.netlify.app/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://glistening-cheesecake-5da449.netlify.app/)
 
 
 
